@@ -14,13 +14,13 @@ const nuevoNum = 10;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = false;
+const nuevaResta = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion =false;
+const nuevaMultiplicacion =true;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = false;
+const nuevoModulo = true;
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
@@ -80,12 +80,14 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1.lenght===str2.lenght){
+
+  if(str1.length===str2.length){
     return true
   }else{
     return false
   }
 }
+
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -190,7 +192,7 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   
-  return  Math.random().toString(2).substring(2,3)
+  return  Math.random()//.toString(2).substring(2,3)
   
 }
 
@@ -199,18 +201,19 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero!==0){
-    if(numero%2===0){
+  console.log(numero)
+    if(numero>=0){
+      if(numero!==0){
       return "Es positivo"
-    }else if(numero%2===1){
+      }else{
+        return false
+      }
+    }else if(numero<0){
       return "Es negativo"
     }
-  }else{
-    return false
-  }
-
   
 }
+console.log(esPositivo(-2))
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
