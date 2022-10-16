@@ -196,9 +196,9 @@ Math.pow(3,3) = 27;
 
 ```javascript
 Math.round(6.5) = 7;
-Math.round(6.45) = 6;
-Math.floor(6.999) = 6;
-Math.ceil(6.0001) = 7;
+Math.round(6.45) = 6;redondear
+Math.floor(6.999) = 6;menor
+Math.ceil(6.0001) = 7;mayor
 ```
 
 #### .length
