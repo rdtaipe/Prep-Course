@@ -213,7 +213,7 @@ function esPositivo(numero) {
     }
   
 }
-console.log(esPositivo(-2))
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
