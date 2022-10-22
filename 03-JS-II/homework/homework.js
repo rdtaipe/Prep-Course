@@ -181,6 +181,7 @@ function operadoresLogicos(num1, num2, num3) {
 
 
 }
+
 //  console.log(operadoresLogicos(2,3,1))
 
 function esPrimo(numero) {

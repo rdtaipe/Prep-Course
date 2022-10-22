@@ -204,6 +204,21 @@ function mesesDelAño(array) {
 }
 
 
+// let mes1=array.filter(a=>a==="Enero")
+// let mes2=array.filter(a=>a==="Marzo")
+// let mes3=array.filter(a=>a==="Noviembre")
+
+// let meses = mes1.concat(mes2,mes3)
+
+// return meses.length===3?meses:"No se encontraron los meses pedidos"
+
+
+
+
+// var ok = ["Marzo", "Diciembre", "Abril", "Junio", "Julio", "Noviembre", "Enero", "Mayo", "Febrero"];
+// var wrong = ["Marzo", "Diciembre", "Julio", "Noviembre"];
+// console.log(mesesDelAño(ok))
+
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
